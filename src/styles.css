@@ -1,0 +1,53 @@
+body {
+  background-color: rgba(120, 139, 201, .75);
+}
+
+.title {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.component_container {
+  position: relative;
+}
+
+.main {
+  display: grid;
+  gap: 1em;
+}
+
+.btn {
+  border: none;
+  color: #FFF;
+  padding: 15px 25px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  margin: 1rem 0;
+  font-weight: bold;
+}
+
+.addBtn {
+  background-color: #7781e7;
+}
+
+.deleteBtn {
+  background-color: #f24345;
+  margin-left: 2rem;
+  /* text-align: right; */
+}
+
+#parent {
+  background-color: transparent;
+  border: 2px solid #CECECE;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  font-size: 8px;
+}
